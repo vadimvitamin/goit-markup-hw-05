@@ -12,8 +12,7 @@ h3,
 h4,
 h5,
 h6,
-p,
-a
+p
 {
   margin: 0;
 }
@@ -38,6 +37,8 @@ header > .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .site-nav {
@@ -221,9 +222,7 @@ margin-right: 50px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   color: var(--white-text-color);
 }
 
@@ -253,32 +252,27 @@ margin-right: 50px;
 }
 
 /* ОСОБЕННОСТИ INDEX*/
-.qwe {
+.section-padding-top {
   padding-top: 94px;
 }
 .section {
-  margin-left: auto;
-  margin-right: auto;
   padding-bottom: 94px;
 }
 
-.general-list-box { }
-
 .general-list {
   display: flex;
-  padding-left: -15px;
-  padding-right: -15px;
+  margin-right: -30px;
 }
-
+.general {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-right: 30px;
+}
 .general {
   width: 270px;
   justify-content: space-between;
 }
 
-.general {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-right: 30px;
-}
+
 .spec-icon {
 
   width: 270px;
@@ -294,10 +288,6 @@ justify-content: center;
   width: 70px;
   height: 70px;
 }
-.ant {}
-.clock {}
-.diagram {}
-.astronaut {}
 
 .specifics-title {
   font-weight: 700;
@@ -318,7 +308,6 @@ justify-content: center;
 
 /* ЧЕМ МЫ ЗАНИМАЕМСЯ */
 
-.progect-list {}
 
 /* общий селектор, даные закоментировал */
 
@@ -328,16 +317,13 @@ justify-content: center;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
-  margin: 0;
+  margin-bottom: 50px;
   color: var(--first-text-color);
 }
 
 .work-list {
   display: flex;
-  width: 1200px;
-  padding-left: -15px;
-  padding-right: -15px;
+margin-right: -30px;
 }
 
 .progects {
@@ -358,41 +344,25 @@ justify-content: center;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
-  margin: 0;
+  margin-bottom: 50px;
 }
 
 .workers {
   display: flex;
-  width: 1200px;
-  padding-left: -15px;
-  padding-right: -15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -30px;
   flex-wrap: wrap;
 }
 
 .element {
-  flex-basis: calc(100% / 4 -30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
 
 .card-workers {
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px  
-}
-
-.photo {}
-
-.text {
-  padding-top: 16px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   padding-bottom: 30px;
-  background-color: #FFFFFF;
-}
-
-.element:nth-last-child(4n) {
-  margin-left: 0;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .specifics-title-team {
@@ -411,11 +381,10 @@ justify-content: center;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-
-
 .social-links {
   list-style: none;
   text-decoration: none;
@@ -440,14 +409,14 @@ justify-content: center;
 .icons:hover,
 .icons:focus {
   background-color: #2196F3;
-  fill: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .icons:hover .social-icon {
-  fill: #FFFFFF;
+  color: #FFFFFF;
 }
 .icons:focus .social-icon {
-  fill: #FFFFFF;
+  color: #FFFFFF;
 }
 .icons {
   display: flex;
@@ -456,16 +425,13 @@ justify-content: center;
 }
 .social-icon {
   width: 20px;
-height: 20px;
-fill: currentColor;
+  height: 20px;
+  fill: currentColor;
 }
 
 .social-icon:hover,
 .social-icon:focus {
   fill:#FFFFFF
-}
-.cl-box {
-  padding-bottom: 94px;
 }
 .client-header {
   font-weight: 700;
@@ -483,14 +449,16 @@ fill: currentColor;
   margin-bottom: 0;
  list-style: none;
  padding: 0;
+ margin-right: -30px;
 }
  .clients-box {
-  flex-basis: calc(100% / 6 -30px);
+  flex-basis: calc(100% / 6 - 30px);
   margin-right: 30px;
  }  
 
 .clients-logo:hover {
 border: 1px solid #2196f3;
+color: #2196f3;
 }
 .clients-logo:focus {
   border: 1px solid #2196F3;
@@ -510,8 +478,8 @@ border: 1px solid #2196f3;
 
 .clients-icons {
   fill: currentColor;
-  justify-content: space-between;
 }
+
 .clients-logo:hover .clients-icons {
   fill: #2196f3;
 }
@@ -527,16 +495,15 @@ border: 1px solid #2196f3;
 
 .join {
   margin-left: 70px;
-  width: 206px;
-  padding-top: 12px;
 }
 
-.x {
+.footer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 .page-footer {
   padding-top: 60px;
@@ -555,7 +522,7 @@ border: 1px solid #2196f3;
   justify-content: flex-start;
   color: var(--blue-text-color);
   text-decoration: none;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .text-address {
@@ -617,17 +584,16 @@ border: 1px solid #2196f3;
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-soc-links {
 display: flex;
-list-style: none;
 justify-content: center;
-padding: 0;
 }
 
 .footer-item-icons {
-    flex-basis: calc(100% / 4 -10px);
-      margin-right: 10px;
+  flex-basis: calc(100% / 4 -10px);
+  margin-right: 10px;
 }
 .footer-item-icons { 
   border-radius: 50%;
@@ -682,9 +648,6 @@ opacity: 0;
 .card {
   justify-content: center;
   padding-top: 94px;
-}
-
-.filters-container {
 }
 
 .filters-button {
@@ -749,31 +712,26 @@ opacity: 0;
 }
 
 
-.list-filter {
-
-}
-
 .specifics-progects {
   margin-left: -30px;
   margin-top: -30px;
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
-  /* margin: 0; */
-  list-style: none;
 }
 
 .specifics-progects>.item {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
-
-.item {}
-
 .cards {
+  display: block;
   cursor: pointer;
 }
+/* замість article в портфоліо залав клас а , забрав cursor-pointer  і поставив display-block */
+/* .cards {
+  cursor: pointer;
+} */
 .cards:hover {
  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

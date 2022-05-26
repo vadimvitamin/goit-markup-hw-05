@@ -250,6 +250,24 @@ margin-right: 50px;
   background-color: #188CE8;
   color: #ffffff;
 }
+/* .backdrop {
+position: fixed;
+top: 0;
+left: 0;
+width: 528px;
+height: 581px;
+background-color: #FFFFFF;
+opacity: 0.5;
+} */
+/* .modal {
+min-height: 581px;
+min-width: 521px;
+background-color: #FFFFFF;
+position: absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50% -50%);
+} */
 
 /* ОСОБЕННОСТИ INDEX*/
 .section-padding-top {

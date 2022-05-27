@@ -375,7 +375,7 @@ margin-right: -30px;
   position: relative;
 }
 .text-img {
-  position: absolute;
+ 
 }
 .progects {
   flex-basis: calc(100% / 3 - 30px);

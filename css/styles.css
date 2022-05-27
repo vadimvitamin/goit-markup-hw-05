@@ -371,14 +371,14 @@ justify-content: center;
   display: flex;
 margin-right: -30px;
 }
-/* .thumb {
+.thumb {
   position: relative;
-} */
-/* .text-img {
+}
+.text-img {
   position: absolute;
-} */
+}
 .progects {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
 }
 
@@ -643,7 +643,7 @@ justify-content: center;
 }
 
 .footer-item-icons {
-  flex-basis: calc(100% / 4 -10px);
+  flex-basis: calc(100% / 4 - 10px);
   margin-right: 10px;
 }
 .footer-item-icons { 

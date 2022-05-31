@@ -276,25 +276,21 @@ transform:translate(-50%, -50%);
 }
 .modal-close-button {
   position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    fill: #FFFFFF;
-    background-color: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-box-sizing: border-box;
-}
-.icon-close {
-    /* width: 30px;
-      height: 30px; */
-  width: 18px;
-  height: 18px;
   top: 8px;
   right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  fill: #FFFFFF;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+.icon-close {
+  width: 18px;
+  height: 18px;
   position: fixed;
-  /* transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 
 /* ОСОБЕННОСТИ INDEX*/

@@ -88,7 +88,9 @@ header > .container {
   display: flex;
 }
 
-.navigation {}
+.navigation {
+  
+}
 
 .navigation:not(:last-child) {
   margin-right: 50px;
@@ -102,6 +104,7 @@ header > .container {
   letter-spacing: 0.02em;
   padding: 32px 0;
   display: block;
+  position: relative;
   color: var(--first-text-color);
 }
 
@@ -112,6 +115,18 @@ header > .container {
 
 .header-link.current {
   color: var(--blue-text-color);
+} 
+/* ефект поточної сторінки */
+.current::after {
+  content: '';
+ position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  background-color: #2196F3;
+  display: block;
+  border-radius: 2px;
 }
 
 /* .email:hover,

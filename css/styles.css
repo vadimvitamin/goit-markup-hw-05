@@ -145,6 +145,7 @@ color: var(--blue-text-color);
 .contacts:hover,
 .contacts:focus {
   color: #2196f3;
+  
 }
 
 
@@ -158,6 +159,7 @@ margin-right: 50px;
 .conection {
   color: #757575;
   align-items: center;
+  
 }
 /* .conection:hover,
 .conection:focus {
@@ -172,11 +174,13 @@ margin-right: 50px;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
+
 }
 
 .email-header:hover,
 .email-header:focus {
   color: var(--blue-text-color);
+  
 }
 
 .tel-header {

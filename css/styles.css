@@ -489,6 +489,9 @@ margin-right: -30px;
   height: 44px;
   background-color: #ffffff;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #AFB1B8;
 }
 
@@ -498,27 +501,12 @@ margin-right: -30px;
   color: #FFFFFF;
 }
 
-.icons:hover .social-icon {
-  color: #FFFFFF;
-}
-.icons:focus .social-icon {
-  color: #FFFFFF;
-}
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .social-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.social-icon:hover,
-.social-icon:focus {
-  fill:#FFFFFF
-}
 .client-header {
   font-weight: 700;
   font-size: 36px;

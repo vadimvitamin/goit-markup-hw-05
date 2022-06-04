@@ -129,10 +129,6 @@ header > .container {
   border-radius: 2px;
 }
 
-/* .email:hover,
-.email:focus {
-color: var(--blue-text-color);
-} */
 
 .contacts {
   display: flex;
@@ -153,18 +149,13 @@ color: var(--blue-text-color);
   margin-left: 50px;
 }
 
-/* .conection:not(:last-child) {
-margin-right: 50px;
-} */
+
 .conection {
   color: #757575;
   align-items: center;
   
 }
-/* .conection:hover,
-.conection:focus {
-  fill: #2196f3;
-} */
+
 .email-header {
   display: flex;
   align-items: center;

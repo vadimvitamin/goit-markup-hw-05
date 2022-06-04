@@ -172,6 +172,7 @@ header > .container {
 .email-header:focus {
   color: var(--blue-text-color);
   
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-header {
@@ -283,6 +284,9 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform:translate(-50%, -50%);
+background-color: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
 /* position: relative; */
 }
 .modal-close-button {
@@ -292,17 +296,18 @@ transform:translate(-50%, -50%);
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  fill: #FFFFFF;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .icon-close {
   width: 18px;
   height: 18px;
-  position: fixed;
   fill: #212121;
-  transform: translate(-50%, -50%);
 }
 
 /* ОСОБЕННОСТИ INDEX*/
@@ -379,37 +384,24 @@ justify-content: center;
   display: flex;
 margin-right: -30px;
 }
-/* .thumb {
-  position: relative;
-} */
-/* .progect-img {
-  display: inline-block;
-} */
-/* .qwe {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 370px;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-} */
-/* .progect-text {
- color: #292323;
-} */
 
-.progects {
+
+.projects {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   position: relative;
 }
 
-.polosa {
+.thumb {
   position: absolute;
     bottom: 0;
     left: 0;
     width: 370px;
     height: 70px;
-    background-color: rgba(47, 48, 58, 0.8);;
+    background-color: rgba(47, 48, 58, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .add-text {
   display: flex;
@@ -419,7 +411,7 @@ margin-right: -30px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
-  margin: 27px 82px;
+  /* margin: 27px 82px; */
   align-self: center;
   /* transform: translateY(24px); */
 }
@@ -806,14 +798,14 @@ opacity: 0;
 }
 
 
-.specifics-progects {
+.specifics-projects {
   margin-left: -30px;
   margin-top: -30px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.specifics-progects>.item {
+.specifics-projects>.item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;

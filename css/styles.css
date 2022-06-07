@@ -290,15 +290,12 @@ header > .container {
   height: 18px;
   fill: #212121;
 }
-/* .icon-close:hover,
-.icon-close:focus {
-  fill: #2196f3;
-} */
-/* .modal-close-button:hover,
-.modal-close-button:focus {
-  background-color: #2196F3;
-} */
-
+.modal-close-button:hover .icon-close {
+fill: #2196F3;
+}
+.modal-close-button:focus .icon-close {
+  fill: #2196F3;
+}
 /* ОСОБЕННОСТИ INDEX*/
 .section-padding-top {
   padding-top: 94px;

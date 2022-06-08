@@ -740,10 +740,11 @@ justify-content: center;
   width: 73px;
   height: 38px;
 }
-.btn-one:active {
+.btn-one .active {
 background-color:#2196F3;
 color: #FFFFFF;
 }
+
 .btn-two {
   margin-left: 8px;
   min-width: 128px;
